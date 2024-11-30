@@ -1,0 +1,56 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+# idea config
+.idea
+
+# md files except README
+*.md
+!README.md
+
+# excluded lessons
+FeedbackSurvey/
+
+# included lessons
+Introduction/*/
+Introduction/task/*/
+TheFirstDateWithProgramming/*/
+TheFirstDateWithProgramming/task/*/
+Chat/*/
+Chat/task/*/
+WarmUp/*/
+WarmUp/task/*/
+MastermindAdvanced/*/
+MastermindAdvanced/task/*/
+Hangman/*/
+Hangman/task/*/
+AlmostDone/*/
+AlmostDone/task/*/
+LastPush/*/
+LastPush/task/*/
+
+!/Introduction/task/
+!/Introduction/task/src/
+!/TheFirstDateWithProgramming/task/
+!/TheFirstDateWithProgramming/task/src/
+!/Chat/task/
+!/Chat/task/src/
+!/WarmUp/task/
+!/WarmUp/task/src/
+!/MastermindAdvanced/task/
+!/MastermindAdvanced/task/src/
+!/Hangman/task/
+!/Hangman/task/src/
+!/AlmostDone/task/
+!/AlmostDone/task/src/
+!/LastPush/task/
+!/LastPush/task/src/
+
+
+# Project exclude paths
+/utils/out/
+/utils/out/production/classes/
